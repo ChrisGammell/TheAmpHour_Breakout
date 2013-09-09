@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 8/16/2013 3:54:21 PM
+PCBNEW-BOARD Version 2 date 8/16/2013 4:39:16 PM
 
 # Created by Pcbnew(2013-07-07 BZR 4022)-stable
 
@@ -11,7 +11,7 @@ VisibleLayers 1FB48001
 Links 149
 NoConn 0
 Di 79.358067 64.6938 207.763533 127.635001
-Ndraw 59
+Ndraw 61
 Ntrack 578
 Nzone 0
 BoardThickness 1.6002
@@ -7738,6 +7738,16 @@ Dl 17.58442 -6.16712
 Dl 17.69364 -6.17728
 Dl 17.69364 -6.17728
 $EndMODULE LAYER2SM
+$TEXTPCB
+Te "OSHpark.com"
+Po 154.94 121.3104 2.54 3.302 0.508 0
+De 22 0 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "TheAmpHour.com"
+Po 154.94 103.5304 2.54 3.302 0.508 0
+De 22 0 0 Normal
+$EndTEXTPCB
 $DRAWSEGMENT
 Po 0 113.665 66.675 93.345 66.675 2.54
 De 28 0 900 0 0
@@ -7798,8 +7808,8 @@ Po 154.94 121.285 2.54 3.302 0.508 0
 De 0 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "PCB manufactured by "
-nl "OSHpark...duh"
+Te "PCB manufactured in the USA"
+nl "by OSHpark...duh"
 nl "How do you not know "
 nl "about the purple yet??"
 Po 154.305 107.95 1.524 2.032 0.3048 0
