@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 9/8/2013 11:12:33 PM
+PCBNEW-BOARD Version 2 date 9/8/2013 11:26:29 PM
 
 # Created by Pcbnew(2013-03-19 BZR 4004)-stable
 
@@ -59,8 +59,8 @@ TextModSize 1.524 1.524
 TextModWidth 0.3048
 PadSize 1.397 1.397
 PadDrill 0.8128
-Pad2MaskClearance 0.254
-SolderMaskMinWidth 0
+Pad2MaskClearance 0.2032
+SolderMaskMinWidth 0.2032
 AuxiliaryAxisOrg 93.6498 131.2164
 VisibleElements 7FFFFFFF
 PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions false) (excludeedgelayer true) (linewidth 0) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory TAHPromoGerbers/))
@@ -624,6 +624,7 @@ Kw CMS SOJ
 Sc 520C78EB
 AR /52040D42/52040F5A
 Op 0 0 0
+.LocalClearance 0.0508
 At SMD
 T0 0 -1.27 1.143 1.016 900 0.127 N I 21 N "P10"
 T1 0 1.27 1.016 1.016 900 0.127 N I 21 N "CONN_4X2"
@@ -703,6 +704,8 @@ Li TQFP32
 Sc 51F6C59C
 AR /51F6C556/51F6C560
 Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
 T0 0 -1.27 1.27 1.016 0 0.2032 N I 21 N "IC1"
 T1 7.2898 0.3556 1.27 1.016 900 0.2032 N V 21 N "ATMEGA328P-A"
 DS 5.0292 2.7686 3.8862 2.7686 0.1524 21
@@ -1180,6 +1183,8 @@ Li 24PinBreakout
 Sc 51FB1B0C
 AR /51FAC6C6/52025C76
 Op 0 0 0
+.SolderMask 0.2032
+.LocalClearance 0.2032
 T0 0 -5.08 1.524 1.524 0 0.3048 N I 21 N "P1"
 T1 -7.62 -2.54 1.524 1.524 0 0.3048 N I 21 N "CONN_12X2+1"
 $PAD
@@ -1352,9 +1357,9 @@ Po 12.7 0
 $EndPAD
 $EndMODULE 24PinBreakout
 $MODULE 32PinBreakout
-Po 179.7177 85.4456 0 15 520D43F2 51FB20B4 ~~
+Po 179.7177 85.4456 0 15 520D43F2 522D4009 ~~
 Li 32PinBreakout
-Sc 51FB20B4
+Sc 522D4009
 AR /51FAC6C6/51FBE25A
 Op 0 0 0
 T0 0 -5.08 1.524 1.524 0 0.3048 N I 21 N "P3"
@@ -1606,6 +1611,8 @@ Li QFN24-hole
 Sc 51FC2564
 AR /51FAC6C6/52025CA2
 Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
 T0 0 -3.81 1.00076 1.00076 3150 0.25019 N I 21 N "P2"
 T1 0 3.81 1.00076 1.00076 3150 0.25019 N I 21 N "CONN_12X2+1"
 DS -1.99136 -2.4892 2.4892 -2.4892 0.14986 21
@@ -1827,6 +1834,8 @@ Kw CMS Plcc
 Sc 52035240
 AR /51FAC6C6/51FBE297
 Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
 At SMD
 T0 0 -1.016 0.762 0.762 3150 0.1524 N I 21 N "P4"
 T1 0 0.762 0.762 0.762 3150 0.1524 N I 21 N "DIL33"
@@ -2068,546 +2077,6 @@ Ne 95 "N-0000055"
 Po 0 0
 $EndPAD
 $EndMODULE QFN32-hole
-$MODULE MouseBite-npth
-Po 112.9284 77.1144 900 15 52025F73 5204C207 ~~
-Li MouseBite-npth
-Sc 5204C207
-AR 
-Op 0 0 0
-T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
-T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -1 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 1 0
-$EndPAD
-$EndMODULE MouseBite-npth
-$MODULE MouseBite-npth
-Po 114.3762 77.1144 900 15 52025F73 5204C215 ~~
-Li MouseBite-npth
-Sc 5204C215
-AR 
-Op 0 0 0
-T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
-T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -1 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 1 0
-$EndPAD
-$EndMODULE MouseBite-npth
-$MODULE MouseBite-npth
-Po 103.7844 90.3986 0 15 52025F73 5204C25D ~~
-Li MouseBite-npth
-Sc 5204C25D
-AR 
-Op 0 0 0
-T0 0 2 1.524 1.524 0 0.3048 N I 21 N "MouseBite"
-T1 1 -3 1.524 1.524 0 0.3048 N I 21 N "VAL**"
-$PAD
-Sh "" C 0.5 0.5 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -1 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 1 0
-$EndPAD
-$EndMODULE MouseBite-npth
-$MODULE MouseBite-npth
-Po 103.8098 88.6714 0 15 52025F73 5204C26A ~~
-Li MouseBite-npth
-Sc 5204C26A
-AR 
-Op 0 0 0
-T0 0 2 1.524 1.524 0 0.3048 N I 21 N "MouseBite"
-T1 1 -3 1.524 1.524 0 0.3048 N I 21 N "VAL**"
-$PAD
-Sh "" C 0.5 0.5 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -1 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 1 0
-$EndPAD
-$EndMODULE MouseBite-npth
-$MODULE MouseBite-npth
-Po 112.903 105.7656 900 15 52025F73 5204C277 ~~
-Li MouseBite-npth
-Sc 5204C277
-AR 
-Op 0 0 0
-T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
-T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -1 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 1 0
-$EndPAD
-$EndMODULE MouseBite-npth
-$MODULE MouseBite-npth
-Po 114.4524 105.7656 900 15 52025F73 5204C284 ~~
-Li MouseBite-npth
-Sc 5204C284
-AR 
-Op 0 0 0
-T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
-T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -1 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 1 0
-$EndPAD
-$EndMODULE MouseBite-npth
-$MODULE MouseBite-npth
-Po 175.768 72.7202 900 15 52025F73 52053D8C ~~
-Li MouseBite-npth
-Sc 52053D8C
-AR 
-Op 0 0 0
-T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
-T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -1 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 1 0
-$EndPAD
-$EndMODULE MouseBite-npth
-$MODULE MouseBite-npth
-Po 176.6316 72.7202 900 15 52025F73 52053D99 ~~
-Li MouseBite-npth
-Sc 52053D99
-AR 
-Op 0 0 0
-T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
-T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -1 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 1 0
-$EndPAD
-$EndMODULE MouseBite-npth
-$MODULE MouseBite-npth
-Po 185.7248 79.248 0 15 52025F73 52053DA7 ~~
-Li MouseBite-npth
-Sc 52053DA7
-AR 
-Op 0 0 0
-T0 0 2 1.524 1.524 0 0.3048 N I 21 N "MouseBite"
-T1 1 -3 1.524 1.524 0 0.3048 N I 21 N "VAL**"
-$PAD
-Sh "" C 0.5 0.5 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -1 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 1 0
-$EndPAD
-$EndMODULE MouseBite-npth
-$MODULE MouseBite-npth
-Po 185.674 80.772 0 15 52025F73 52053DB4 ~~
-Li MouseBite-npth
-Sc 52053DB4
-AR 
-Op 0 0 0
-T0 0 2 1.524 1.524 0 0.3048 N I 21 N "MouseBite"
-T1 1 -3 1.524 1.524 0 0.3048 N I 21 N "VAL**"
-$PAD
-Sh "" C 0.5 0.5 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -1 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 0
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 1 0
-$EndPAD
-$EndMODULE MouseBite-npth
-$MODULE MouseBite-npth
-Po 175.6664 88.011 900 15 52025F73 52053DC1 ~~
-Li MouseBite-npth
-Sc 52053DC1
-AR 
-Op 0 0 0
-T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
-T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -1 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 1 0
-$EndPAD
-$EndMODULE MouseBite-npth
-$MODULE MouseBite-npth
-Po 176.6824 88.0364 900 15 52025F73 52053DCE ~~
-Li MouseBite-npth
-Sc 52053DCE
-AR 
-Op 0 0 0
-T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
-T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -1 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 1 0
-$EndPAD
-$EndMODULE MouseBite-npth
-$MODULE MouseBite-npth
-Po 175.768 110.8202 900 15 52025F73 52053DDC ~~
-Li MouseBite-npth
-Sc 52053DDC
-AR 
-Op 0 0 0
-T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
-T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -1 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 1 0
-$EndPAD
-$EndMODULE MouseBite-npth
-$MODULE MouseBite-npth
-Po 176.6824 110.7948 900 15 52025F73 52053DE9 ~~
-Li MouseBite-npth
-Sc 52053DE9
-AR 
-Op 0 0 0
-T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
-T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -1 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 1 0
-$EndPAD
-$EndMODULE MouseBite-npth
-$MODULE MouseBite-npth
-Po 133.1722 82.2706 900 15 52025F73 52053E2A ~~
-Li MouseBite-npth
-Sc 52053E2A
-AR 
-Op 0 0 0
-T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
-T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -1 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 1 0
-$EndPAD
-$EndMODULE MouseBite-npth
-$MODULE MouseBite-npth
-Po 134.7724 82.2706 900 15 52025F73 52053E37 ~~
-Li MouseBite-npth
-Sc 52053E37
-AR 
-Op 0 0 0
-T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
-T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -1 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 1 0
-$EndPAD
-$EndMODULE MouseBite-npth
-$MODULE MouseBite-npth
-Po 133.2738 110.8202 900 15 52025F73 52071A87 ~~
-Li MouseBite-npth
-Sc 52071A87
-AR 
-Op 0 0 0
-T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
-T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -1 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 1 0
-$EndPAD
-$EndMODULE MouseBite-npth
-$MODULE MouseBite-npth
-Po 134.6962 110.7948 900 15 52025F73 52071A94 ~~
-Li MouseBite-npth
-Sc 52071A94
-AR 
-Op 0 0 0
-T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
-T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -1 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$PAD
-Sh "" C 0.5 0.5 0 0 900
-Dr 0.5 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 1 0
-$EndPAD
-$EndMODULE MouseBite-npth
 $MODULE SO16N
 Po 186.0296 93.9546 900 0 520D44F8 520C7906 ~~
 Li SO16N
@@ -2616,6 +2085,8 @@ Kw CMS SOJ
 Sc 520C7906
 AR /51FAC6C6/520BFD77
 Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
 At SMD
 T0 0.127 1.27 1.016 1.016 900 0.2032 M I 20 N "P8"
 T1 0 -1.27 1.016 1.016 900 0.2032 M I 20 N "DIL16"
@@ -2753,6 +2224,8 @@ Kw CMS SOJ
 Sc 520C7974
 AR /51FAC6C6/520BFD68
 Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
 At SMD
 T0 0 1.27 1.016 1.143 900 0.127 M I 20 N "P5"
 T1 0 -1.27 1.016 1.016 900 0.127 M I 20 N "DIL14"
@@ -2874,6 +2347,8 @@ Li MSOP_8
 Sc 520C7C50
 AR /52040D42/520C0396
 Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
 T0 0 -0.635 1.00076 1.00076 900 0.1524 M I 20 N "P12"
 T1 0 0.762 1.00076 1.00076 900 0.127 M I 20 N "CONN_4X2"
 DS -0.3175 -1.5875 -1.5875 -0.381 0.2032 20
@@ -3015,6 +2490,8 @@ Li TSSOP14
 Sc 520C6C62
 AR /520C6B05/520C6B0B
 Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
 At SMD
 T0 0 -0.762 0.762 0.635 2700 0.15875 N I 21 N "P15"
 T1 0 0.508 0.762 0.762 2700 0.16002 N I 21 N "CONN_7X2"
@@ -3129,11 +2606,11 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE TSSOP14
 $MODULE DIP-14__500
-Po 96.1136 69.977 2700 15 520C610B 520C7567 ~~
+Po 96.1136 69.977 2700 15 520C610B 522D3F2F ~~
 Li DIP-14__500
 Cd 14 pins DIL package, round pads
 Kw DIL
-Sc 520C7567
+Sc 522D3F2F
 AR /520C6B05/520C6B2D
 Op 0 0 0
 T0 2.54 -15.24 1.524 1.143 2700 0.28575 N I 21 N "P16"
@@ -7870,6 +7347,582 @@ Dl 3.87858 0.26924
 Dl 3.90144 0.83058
 Dl 3.90144 0.83058
 $EndMODULE OSHW_SILK_BACK
+$MODULE MouseBite-npth
+Po 114.3762 77.1144 900 15 52025F73 5204C215 ~~
+Li MouseBite-npth
+Sc 5204C215
+AR 
+Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
+T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
+T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$EndMODULE MouseBite-npth
+$MODULE MouseBite-npth
+Po 112.9284 77.1144 900 15 52025F73 5204C207 ~~
+Li MouseBite-npth
+Sc 5204C207
+AR 
+Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
+T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
+T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$EndMODULE MouseBite-npth
+$MODULE MouseBite-npth
+Po 134.6962 110.7948 900 15 52025F73 52071A94 ~~
+Li MouseBite-npth
+Sc 52071A94
+AR 
+Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
+T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
+T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$EndMODULE MouseBite-npth
+$MODULE MouseBite-npth
+Po 133.2738 110.8202 900 15 52025F73 52071A87 ~~
+Li MouseBite-npth
+Sc 52071A87
+AR 
+Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
+T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
+T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$EndMODULE MouseBite-npth
+$MODULE MouseBite-npth
+Po 134.7724 82.2706 900 15 52025F73 52053E37 ~~
+Li MouseBite-npth
+Sc 52053E37
+AR 
+Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
+T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
+T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$EndMODULE MouseBite-npth
+$MODULE MouseBite-npth
+Po 133.1722 82.2706 900 15 52025F73 52053E2A ~~
+Li MouseBite-npth
+Sc 52053E2A
+AR 
+Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
+T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
+T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$EndMODULE MouseBite-npth
+$MODULE MouseBite-npth
+Po 176.6824 110.7948 900 15 52025F73 52053DE9 ~~
+Li MouseBite-npth
+Sc 52053DE9
+AR 
+Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
+T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
+T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$EndMODULE MouseBite-npth
+$MODULE MouseBite-npth
+Po 175.768 110.8202 900 15 52025F73 52053DDC ~~
+Li MouseBite-npth
+Sc 52053DDC
+AR 
+Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
+T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
+T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$EndMODULE MouseBite-npth
+$MODULE MouseBite-npth
+Po 176.6824 88.0364 900 15 52025F73 52053DCE ~~
+Li MouseBite-npth
+Sc 52053DCE
+AR 
+Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
+T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
+T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$EndMODULE MouseBite-npth
+$MODULE MouseBite-npth
+Po 175.6664 88.011 900 15 52025F73 52053DC1 ~~
+Li MouseBite-npth
+Sc 52053DC1
+AR 
+Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
+T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
+T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$EndMODULE MouseBite-npth
+$MODULE MouseBite-npth
+Po 185.674 80.772 0 15 52025F73 52053DB4 ~~
+Li MouseBite-npth
+Sc 52053DB4
+AR 
+Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
+T0 0 2 1.524 1.524 0 0.3048 N I 21 N "MouseBite"
+T1 1 -3 1.524 1.524 0 0.3048 N I 21 N "VAL**"
+$PAD
+Sh "" C 0.5 0.5 0 0 0
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 0
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 0
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$EndMODULE MouseBite-npth
+$MODULE MouseBite-npth
+Po 185.7248 79.248 0 15 52025F73 52053DA7 ~~
+Li MouseBite-npth
+Sc 52053DA7
+AR 
+Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
+T0 0 2 1.524 1.524 0 0.3048 N I 21 N "MouseBite"
+T1 1 -3 1.524 1.524 0 0.3048 N I 21 N "VAL**"
+$PAD
+Sh "" C 0.5 0.5 0 0 0
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 0
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 0
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$EndMODULE MouseBite-npth
+$MODULE MouseBite-npth
+Po 176.6316 72.7202 900 15 52025F73 52053D99 ~~
+Li MouseBite-npth
+Sc 52053D99
+AR 
+Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
+T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
+T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$EndMODULE MouseBite-npth
+$MODULE MouseBite-npth
+Po 175.768 72.7202 900 15 52025F73 52053D8C ~~
+Li MouseBite-npth
+Sc 52053D8C
+AR 
+Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
+T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
+T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$EndMODULE MouseBite-npth
+$MODULE MouseBite-npth
+Po 114.4524 105.7656 900 15 52025F73 5204C284 ~~
+Li MouseBite-npth
+Sc 5204C284
+AR 
+Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
+T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
+T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$EndMODULE MouseBite-npth
+$MODULE MouseBite-npth
+Po 112.903 105.7656 900 15 52025F73 5204C277 ~~
+Li MouseBite-npth
+Sc 5204C277
+AR 
+Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
+T0 0 2 1.524 1.524 900 0.3048 N I 21 N "MouseBite"
+T1 1 -3 1.524 1.524 900 0.3048 N I 21 N "VAL**"
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 900
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$EndMODULE MouseBite-npth
+$MODULE MouseBite-npth
+Po 103.8098 88.6714 0 15 52025F73 5204C26A ~~
+Li MouseBite-npth
+Sc 5204C26A
+AR 
+Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
+T0 0 2 1.524 1.524 0 0.3048 N I 21 N "MouseBite"
+T1 1 -3 1.524 1.524 0 0.3048 N I 21 N "VAL**"
+$PAD
+Sh "" C 0.5 0.5 0 0 0
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 0
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 0
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$EndMODULE MouseBite-npth
+$MODULE MouseBite-npth
+Po 103.7844 90.3986 0 15 52025F73 5204C25D ~~
+Li MouseBite-npth
+Sc 5204C25D
+AR 
+Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
+T0 0 2 1.524 1.524 0 0.3048 N I 21 N "MouseBite"
+T1 1 -3 1.524 1.524 0 0.3048 N I 21 N "VAL**"
+$PAD
+Sh "" C 0.5 0.5 0 0 0
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 0
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "" C 0.5 0.5 0 0 0
+Dr 0.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 0
+$EndPAD
+$EndMODULE MouseBite-npth
 $TEXTPCB
 Te "OSHpark.com"
 Po 154.94 121.3104 2.54 3.302 0.508 0

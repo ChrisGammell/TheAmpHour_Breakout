@@ -1,6 +1,6 @@
-PCBNEW-BOARD Version 2 date 8/16/2013 4:39:16 PM
+PCBNEW-BOARD Version 2 date 9/8/2013 11:23:41 PM
 
-# Created by Pcbnew(2013-07-07 BZR 4022)-stable
+# Created by Pcbnew(2013-03-19 BZR 4004)-stable
 
 $GENERAL
 encoding utf-8
@@ -15,14 +15,14 @@ Ndraw 61
 Ntrack 578
 Nzone 0
 BoardThickness 1.6002
-Nmodule 36
+Nmodule 37
 Nnets 108
 $EndGENERAL
 
 $SHEETDESCR
 Sheet A4 11693 8268
 Title ""
-Date "16 aug 2013"
+Date "9 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -59,11 +59,11 @@ TextModSize 1.524 1.524
 TextModWidth 0.3048
 PadSize 1.397 1.397
 PadDrill 0.8128
-Pad2MaskClearance 0.254
-SolderMaskMinWidth 0
+Pad2MaskClearance 0.2032
+SolderMaskMinWidth 0.2032
 AuxiliaryAxisOrg 93.6498 131.2164
 VisibleElements 7FFFFFFF
-PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions false) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory TAHPromoGerbers/))
+PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions false) (excludeedgelayer true) (linewidth 0) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory TAHPromoGerbers/))
 $EndSETUP
 
 $EQUIPOT
@@ -624,6 +624,7 @@ Kw CMS SOJ
 Sc 520C78EB
 AR /52040D42/52040F5A
 Op 0 0 0
+.LocalClearance 0.0508
 At SMD
 T0 0 -1.27 1.143 1.016 900 0.127 N I 21 N "P10"
 T1 0 1.27 1.016 1.016 900 0.127 N I 21 N "CONN_4X2"
@@ -703,6 +704,8 @@ Li TQFP32
 Sc 51F6C59C
 AR /51F6C556/51F6C560
 Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
 T0 0 -1.27 1.27 1.016 0 0.2032 N I 21 N "IC1"
 T1 7.2898 0.3556 1.27 1.016 900 0.2032 N V 21 N "ATMEGA328P-A"
 DS 5.0292 2.7686 3.8862 2.7686 0.1524 21
@@ -1180,6 +1183,8 @@ Li 24PinBreakout
 Sc 51FB1B0C
 AR /51FAC6C6/52025C76
 Op 0 0 0
+.SolderMask 0.2032
+.LocalClearance 0.2032
 T0 0 -5.08 1.524 1.524 0 0.3048 N I 21 N "P1"
 T1 -7.62 -2.54 1.524 1.524 0 0.3048 N I 21 N "CONN_12X2+1"
 $PAD
@@ -1352,9 +1357,9 @@ Po 12.7 0
 $EndPAD
 $EndMODULE 24PinBreakout
 $MODULE 32PinBreakout
-Po 179.7177 85.4456 0 15 520D43F2 51FB20B4 ~~
+Po 179.7177 85.4456 0 15 520D43F2 522D4009 ~~
 Li 32PinBreakout
-Sc 51FB20B4
+Sc 522D4009
 AR /51FAC6C6/51FBE25A
 Op 0 0 0
 T0 0 -5.08 1.524 1.524 0 0.3048 N I 21 N "P3"
@@ -1606,6 +1611,8 @@ Li QFN24-hole
 Sc 51FC2564
 AR /51FAC6C6/52025CA2
 Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
 T0 0 -3.81 1.00076 1.00076 3150 0.25019 N I 21 N "P2"
 T1 0 3.81 1.00076 1.00076 3150 0.25019 N I 21 N "CONN_12X2+1"
 DS -1.99136 -2.4892 2.4892 -2.4892 0.14986 21
@@ -1827,6 +1834,8 @@ Kw CMS Plcc
 Sc 52035240
 AR /51FAC6C6/51FBE297
 Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
 At SMD
 T0 0 -1.016 0.762 0.762 3150 0.1524 N I 21 N "P4"
 T1 0 0.762 0.762 0.762 3150 0.1524 N I 21 N "DIL33"
@@ -2616,6 +2625,8 @@ Kw CMS SOJ
 Sc 520C7906
 AR /51FAC6C6/520BFD77
 Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
 At SMD
 T0 0.127 1.27 1.016 1.016 900 0.2032 M I 20 N "P8"
 T1 0 -1.27 1.016 1.016 900 0.2032 M I 20 N "DIL16"
@@ -2753,6 +2764,8 @@ Kw CMS SOJ
 Sc 520C7974
 AR /51FAC6C6/520BFD68
 Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
 At SMD
 T0 0 1.27 1.016 1.143 900 0.127 M I 20 N "P5"
 T1 0 -1.27 1.016 1.016 900 0.127 M I 20 N "DIL14"
@@ -2874,6 +2887,8 @@ Li MSOP_8
 Sc 520C7C50
 AR /52040D42/520C0396
 Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
 T0 0 -0.635 1.00076 1.00076 900 0.1524 M I 20 N "P12"
 T1 0 0.762 1.00076 1.00076 900 0.127 M I 20 N "CONN_4X2"
 DS -0.3175 -1.5875 -1.5875 -0.381 0.2032 20
@@ -3015,6 +3030,8 @@ Li TSSOP14
 Sc 520C6C62
 AR /520C6B05/520C6B0B
 Op 0 0 0
+.SolderMask 0.0508
+.LocalClearance 0.0508
 At SMD
 T0 0 -0.762 0.762 0.635 2700 0.15875 N I 21 N "P15"
 T1 0 0.508 0.762 0.762 2700 0.16002 N I 21 N "CONN_7X2"
@@ -3129,11 +3146,11 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE TSSOP14
 $MODULE DIP-14__500
-Po 96.1136 69.977 2700 15 520C610B 520C7567 ~~
+Po 96.1136 69.977 2700 15 520C610B 522D3F2F ~~
 Li DIP-14__500
 Cd 14 pins DIL package, round pads
 Kw DIL
-Sc 520C7567
+Sc 522D3F2F
 AR /520C6B05/520C6B2D
 Op 0 0 0
 T0 2.54 -15.24 1.524 1.143 2700 0.28575 N I 21 N "P16"
@@ -7738,6 +7755,138 @@ Dl 17.58442 -6.16712
 Dl 17.69364 -6.17728
 Dl 17.69364 -6.17728
 $EndMODULE LAYER2SM
+$MODULE OSHW_SILK_BACK
+Po 169.926 117.475 0 20 00000000 52347CE0 ~~
+Li OSHW_SILK_BACK
+Sc 52347CE0
+AR 
+Op 0 0 0
+T0 0 4.65582 1.524 1.524 0 0.3048 N I 20 N "G***"
+T1 0 -4.65582 1.524 1.524 0 0.3048 N I 20 N "OSHW_SILK_BACK"
+DP 0 0 0 0 122 0.00254 20
+Dl 3.90144 0.83058
+Dl 3.37566 0.94488
+Dl 3.0861 1.01346
+Dl 2.91338 1.08458
+Dl 2.8067 1.19888
+Dl 2.71272 1.38938
+Dl 2.68732 1.45034
+Dl 2.5273 1.84404
+Dl 2.82702 2.2606
+Dl 3.12674 2.6797
+Dl 2.7178 3.08356
+Dl 2.30632 3.48742
+Dl 1.94564 3.2258
+Dl 1.6256 3.03022
+Dl 1.3843 2.96672
+Dl 1.23698 3.0353
+Dl 1.22936 3.048
+Dl 1.16586 3.11404
+Dl 1.09728 3.0988
+Dl 1.01092 2.98196
+Dl 0.89662 2.74574
+Dl 0.7366 2.37744
+Dl 0.67818 2.2352
+Dl 0.31242 1.33858
+Dl 0.57658 1.1303
+Dl 0.83058 0.83312
+Dl 0.95504 0.4699
+Dl 0.94742 0.08636
+Dl 0.8128 -0.27686
+Dl 0.5842 -0.5461
+Dl 0.2667 -0.71374
+Dl -0.10668 -0.77216
+Dl -0.4699 -0.7112
+Dl -0.70866 -0.58674
+Dl -1.00584 -0.25908
+Dl -1.15316 0.11176
+Dl -1.15062 0.49784
+Dl -0.99822 0.86868
+Dl -0.71628 1.17094
+Dl -0.49784 1.34366
+Dl -0.85344 2.21742
+Dl -0.99822 2.56794
+Dl -1.1176 2.8575
+Dl -1.19888 3.05054
+Dl -1.22936 3.11404
+Dl -1.31064 3.10134
+Dl -1.46558 3.03784
+Dl -1.65354 2.9845
+Dl -1.82626 3.0353
+Dl -1.92278 3.09118
+Dl -2.20726 3.2766
+Dl -2.39268 3.3782
+Dl -2.52222 3.39344
+Dl -2.64414 3.32232
+Dl -2.80416 3.16484
+Dl -2.8956 3.06832
+Dl -3.28676 2.667
+Dl -3.00228 2.25298
+Dl -2.72034 1.83896
+Dl -2.87274 1.4478
+Dl -2.96672 1.23444
+Dl -3.06324 1.1049
+Dl -3.21564 1.02616
+Dl -3.47218 0.96012
+Dl -3.54838 0.94488
+Dl -4.07162 0.83058
+Dl -4.04622 0.26924
+Dl -4.02082 -0.28956
+Dl -3.683 -0.3556
+Dl -3.4163 -0.40894
+Dl -3.19532 -0.4572
+Dl -3.16484 -0.46482
+Dl -2.99974 -0.58674
+Dl -2.84988 -0.86868
+Dl -2.83972 -0.889
+Dl -2.69494 -1.27
+Dl -3.0099 -1.69926
+Dl -3.32486 -2.12852
+Dl -2.95656 -2.50444
+Dl -2.75336 -2.70002
+Dl -2.59334 -2.83718
+Dl -2.51968 -2.88036
+Dl -2.41554 -2.83464
+Dl -2.21996 -2.72034
+Dl -2.0193 -2.5908
+Dl -1.59004 -2.30124
+Dl -1.23952 -2.44856
+Dl -1.05156 -2.53746
+Dl -0.93472 -2.63398
+Dl -0.86106 -2.78892
+Dl -0.79502 -3.048
+Dl -0.76962 -3.16484
+Dl -0.65024 -3.7338
+Dl -0.09652 -3.7084
+Dl 0.4572 -3.683
+Dl 0.58928 -3.13944
+Dl 0.66802 -2.8448
+Dl 0.74422 -2.66446
+Dl 0.85598 -2.55524
+Dl 1.03378 -2.4638
+Dl 1.06934 -2.44856
+Dl 1.41986 -2.30124
+Dl 1.82626 -2.5908
+Dl 2.05994 -2.74574
+Dl 2.24536 -2.85242
+Dl 2.32664 -2.88036
+Dl 2.43078 -2.82194
+Dl 2.60858 -2.67716
+Dl 2.77622 -2.51714
+Dl 3.13182 -2.15392
+Dl 2.82702 -1.70434
+Dl 2.52476 -1.25222
+Dl 2.667 -0.88138
+Dl 2.74574 -0.69088
+Dl 2.82956 -0.56896
+Dl 2.96164 -0.48768
+Dl 3.18008 -0.42418
+Dl 3.51536 -0.3556
+Dl 3.85318 -0.28956
+Dl 3.87858 0.26924
+Dl 3.90144 0.83058
+Dl 3.90144 0.83058
+$EndMODULE OSHW_SILK_BACK
 $TEXTPCB
 Te "OSHpark.com"
 Po 154.94 121.3104 2.54 3.302 0.508 0
@@ -7804,7 +7953,7 @@ De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "OSHpark.com"
-Po 154.94 121.285 2.54 3.302 0.508 0
+Po 151.384 121.412 2.54 3.302 0.508 0
 De 0 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
@@ -7812,8 +7961,8 @@ Te "PCB manufactured in the USA"
 nl "by OSHpark...duh"
 nl "How do you not know "
 nl "about the purple yet??"
-Po 154.305 107.95 1.524 2.032 0.3048 0
-De 20 0 0 Normal
+Po 136.652 107.95 1.524 2.032 0.3048 0
+De 20 0 0 Normal R C
 $EndTEXTPCB
 $TEXTPCB
 Te "TSSOP-14"
