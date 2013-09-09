@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 9/8/2013 11:26:29 PM
+PCBNEW-BOARD Version 2 date 9/9/2013 12:01:55 AM
 
 # Created by Pcbnew(2013-03-19 BZR 4004)-stable
 
@@ -7,11 +7,11 @@ encoding utf-8
 Units mm
 LayerCount 2
 EnabledLayers 1FFF8001
-VisibleLayers 1FB48001
+VisibleLayers 1FF00001
 Links 149
 NoConn 0
 Di 79.358067 64.6938 207.763533 127.635001
-Ndraw 61
+Ndraw 62
 Ntrack 578
 Nzone 0
 BoardThickness 1.6002
@@ -59,11 +59,11 @@ TextModSize 1.524 1.524
 TextModWidth 0.3048
 PadSize 1.397 1.397
 PadDrill 0.8128
-Pad2MaskClearance 0.2032
-SolderMaskMinWidth 0.2032
+Pad2MaskClearance 0.1016
+SolderMaskMinWidth 0.1016
 AuxiliaryAxisOrg 93.6498 131.2164
-VisibleElements 7FFFFFFF
-PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions false) (excludeedgelayer true) (linewidth 0) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory TAHPromoGerbers/))
+VisibleElements 7FFE67CF
+PcbPlotParams (pcbplotparams (layerselection 284983297) (usegerberextensions false) (excludeedgelayer true) (linewidth 0) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory Gerbers/))
 $EndSETUP
 
 $EQUIPOT
@@ -624,7 +624,8 @@ Kw CMS SOJ
 Sc 520C78EB
 AR /52040D42/52040F5A
 Op 0 0 0
-.LocalClearance 0.0508
+.SolderMask 0.1016
+.LocalClearance 0.1016
 At SMD
 T0 0 -1.27 1.143 1.016 900 0.127 N I 21 N "P10"
 T1 0 1.27 1.016 1.016 900 0.127 N I 21 N "CONN_4X2"
@@ -704,8 +705,8 @@ Li TQFP32
 Sc 51F6C59C
 AR /51F6C556/51F6C560
 Op 0 0 0
-.SolderMask 0.0508
-.LocalClearance 0.0508
+.SolderMask 0.1016
+.LocalClearance 0.1016
 T0 0 -1.27 1.27 1.016 0 0.2032 N I 21 N "IC1"
 T1 7.2898 0.3556 1.27 1.016 900 0.2032 N V 21 N "ATMEGA328P-A"
 DS 5.0292 2.7686 3.8862 2.7686 0.1524 21
@@ -1611,8 +1612,8 @@ Li QFN24-hole
 Sc 51FC2564
 AR /51FAC6C6/52025CA2
 Op 0 0 0
-.SolderMask 0.0508
-.LocalClearance 0.0508
+.SolderMask 0.1016
+.LocalClearance 0.1016
 T0 0 -3.81 1.00076 1.00076 3150 0.25019 N I 21 N "P2"
 T1 0 3.81 1.00076 1.00076 3150 0.25019 N I 21 N "CONN_12X2+1"
 DS -1.99136 -2.4892 2.4892 -2.4892 0.14986 21
@@ -1834,8 +1835,8 @@ Kw CMS Plcc
 Sc 52035240
 AR /51FAC6C6/51FBE297
 Op 0 0 0
-.SolderMask 0.0508
-.LocalClearance 0.0508
+.SolderMask 0.1016
+.LocalClearance 0.1016
 At SMD
 T0 0 -1.016 0.762 0.762 3150 0.1524 N I 21 N "P4"
 T1 0 0.762 0.762 0.762 3150 0.1524 N I 21 N "DIL33"
@@ -2085,8 +2086,8 @@ Kw CMS SOJ
 Sc 520C7906
 AR /51FAC6C6/520BFD77
 Op 0 0 0
-.SolderMask 0.0508
-.LocalClearance 0.0508
+.SolderMask 0.1016
+.LocalClearance 0.1016
 At SMD
 T0 0.127 1.27 1.016 1.016 900 0.2032 M I 20 N "P8"
 T1 0 -1.27 1.016 1.016 900 0.2032 M I 20 N "DIL16"
@@ -2224,8 +2225,8 @@ Kw CMS SOJ
 Sc 520C7974
 AR /51FAC6C6/520BFD68
 Op 0 0 0
-.SolderMask 0.0508
-.LocalClearance 0.0508
+.SolderMask 0.1016
+.LocalClearance 0.1016
 At SMD
 T0 0 1.27 1.016 1.143 900 0.127 M I 20 N "P5"
 T1 0 -1.27 1.016 1.016 900 0.127 M I 20 N "DIL14"
@@ -2347,8 +2348,8 @@ Li MSOP_8
 Sc 520C7C50
 AR /52040D42/520C0396
 Op 0 0 0
-.SolderMask 0.0508
-.LocalClearance 0.0508
+.SolderMask 0.1016
+.LocalClearance 0.1016
 T0 0 -0.635 1.00076 1.00076 900 0.1524 M I 20 N "P12"
 T1 0 0.762 1.00076 1.00076 900 0.127 M I 20 N "CONN_4X2"
 DS -0.3175 -1.5875 -1.5875 -0.381 0.2032 20
@@ -2490,8 +2491,8 @@ Li TSSOP14
 Sc 520C6C62
 AR /520C6B05/520C6B0B
 Op 0 0 0
-.SolderMask 0.0508
-.LocalClearance 0.0508
+.SolderMask 0.1016
+.LocalClearance 0.1016
 At SMD
 T0 0 -0.762 0.762 0.635 2700 0.15875 N I 21 N "P15"
 T1 0 0.508 0.762 0.762 2700 0.16002 N I 21 N "CONN_7X2"
@@ -7216,7 +7217,7 @@ Dl 17.69364 -6.17728
 Dl 17.69364 -6.17728
 $EndMODULE LAYER2SM
 $MODULE OSHW_SILK_BACK
-Po 169.926 117.475 0 20 00000000 52347CE0 ~~
+Po 169.672 113.919 0 20 00000000 52347CE0 ~~
 Li OSHW_SILK_BACK
 Sc 52347CE0
 AR 
@@ -7924,8 +7925,13 @@ Po 1 0
 $EndPAD
 $EndMODULE MouseBite-npth
 $TEXTPCB
+Te "QFN32"
+Po 185.928 110.363 1.016 1.27 0.254 0
+De 21 1 0 Normal
+$EndTEXTPCB
+$TEXTPCB
 Te "OSHpark.com"
-Po 154.94 121.3104 2.54 3.302 0.508 0
+Po 151.384 121.412 2.54 3.302 0.508 0
 De 22 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
@@ -7994,7 +8000,7 @@ De 0 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "PCB manufactured in the USA"
-nl "by OSHpark...duh"
+nl "by OSHpark.......duh"
 nl "How do you not know "
 nl "about the purple yet??"
 Po 136.652 107.95 1.524 2.032 0.3048 0
