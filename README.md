@@ -6,4 +6,4 @@ http://chrisgammell.com
 
 An OSHW licensed board that has breakout tabs and a center panel talking about The Amp Hour Electronics Podcast.
 
-![Alt text](/photos/TAH_board.jpg "The Amp Hour Breakout Board")
+![Alt text](/Photos/TAH_board.jpg "The Amp Hour Breakout Board")
